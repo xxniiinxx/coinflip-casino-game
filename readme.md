@@ -1,4 +1,4 @@
-# Solana Coinflip Casino
+# Coinflip-Casino
 
 A full-stack, peer-to-peer **coinflip betting game** on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for **2× the stake**. The UI updates in real time over WebSockets, outcomes are resolved on-chain with **Orao VRF**, and the backend tracks rooms, chat, and match history in MongoDB.
 
