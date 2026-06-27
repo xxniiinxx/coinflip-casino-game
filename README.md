@@ -1,4 +1,4 @@
-# FlipArena
+# FlipArena - Solana Coinflip Casino Game
 
 > **A full-stack, peer-to-peer heads-or-tails betting arena on Solana** — Players connect a wallet, open or accept on-chain matches, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the server tracks matches, chat, and wallet stats in MongoDB.
 
