@@ -67,9 +67,15 @@ The **production PvP program** used by the frontend and backend is deployed at:
 - **Multiple currencies** — SOL, USDT, USDC, BONK (configurable in backend constants).
 - **Optional Twitter posts** — Match results can be tweeted after settlement (configure credentials).
 
+
+### Related Projects
+
+- [Project hub](https://www.flip.is/)
+
+
 ### Demo
 
-https://github.com/user-attachments/assets/458b9a63-4b7a-457e-b3e4-020317935c21
+[<img width="1672" height="924" alt="Coinflip Casino on Solana" src="https://github.com/user-attachments/assets/394beb0f-9ea9-42d8-9492-5a4a7844a84e" />](https://youtu.be/B0pLXF-sOuo)
 
 ---
 
@@ -374,6 +380,17 @@ Multiplayer resolution uses **Orao VRF**:
 - The relayer wallet only signs protocol actions configured in the program (e.g. `handleGame`)
 - Expired rooms trigger backend-initiated refunds
 
+
+## FAQ
+
+### Is this financial advice?
+
+No. This project is for educational purposes only. Use at your own risk.
+
+### Can I fork and modify this?
+
+Yes. MIT licensed — fork, modify, and contribute via pull requests.
+
 ### Important disclaimers
 
 - **Not audited in this README** — Conduct a professional audit before mainnet use with real funds.
@@ -431,3 +448,6 @@ cd coinflip-frontend && yarn && yarn start
 ```
 
 Ensure MongoDB is running, `.env` is configured, `coinflip.ts` IDL exists, and `WS_HOST` / `RPC` match your setup.
+
+---
+**Keywords:** A full-stack, peer-to-peer coinflip betting game on Solana, anchor, betting, blockchain-game, casino, coinflip, cryptocurrency, defi, fullstack, gambling, mongodb
